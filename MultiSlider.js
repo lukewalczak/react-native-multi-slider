@@ -405,7 +405,7 @@ export default class MultiSlider extends React.Component {
     }
 
     if (diff < 0) {
-      // collision
+      // collision gggg
       return defaultPosition - diff / 2;
     }
 
