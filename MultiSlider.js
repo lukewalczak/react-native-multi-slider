@@ -1,5 +1,3 @@
-// @flow
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -405,7 +403,7 @@ export default class MultiSlider extends React.Component {
     }
 
     if (diff < 0) {
-      // collision gggg
+      // collision
       return defaultPosition - diff / 2;
     }
 
